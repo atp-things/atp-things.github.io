@@ -10,7 +10,7 @@ Let's translate `docs/intro.md` to French.
 
 Modify `docusaurus.config.js` to add s
 
-upport for the `fr` locale:
+uppor t for the `fr` locale:
 
 ```js title="docusaurus.config.js"
 module.exports = {
