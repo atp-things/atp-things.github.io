@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "options": {
+    "env": {
+      "GIT_USER": "andrazpolak",
+      "DEPLOYMENT_BRANCH": "gh-pages"
+    }
+  },
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "website/",
+      "problemMatcher": [],
+      "label": "npm: start - website",
+      "detail": "docusaurus start"
+    },
+    {
+      "type": "shell",
+      "command": "GIT_USER=andrazpolak DEPLOYMENT_BRANCH=gh-pages npm run deploy",
+      "problemMatcher": [],
+      "label": "npm: deploy - website command",
+      "detail": "docusaurus deploy command",
+      "options": {
+        "cwd": "${workspaceFolder}/website/"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "deploy",
+      "path": "website/",
+      "problemMatcher": [],
+      "label": "npm: deploy - website",
+      "detail": "docusaurus deploy"
+    }
+  ]
+}
