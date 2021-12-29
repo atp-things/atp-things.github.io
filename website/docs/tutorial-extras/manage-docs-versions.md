@@ -14,6 +14,7 @@ Release a version 1.0 of your project:
 npm run docusaurus docs:version 1.0
 ```
 
+dsd
 The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
 
 Your docs now have 2 versions:
@@ -34,7 +35,7 @@ module.exports = {
       items: [
         // highlight-start
         {
-          type: 'docsVersionDropdown',
+          type: "docsVersionDropdown",
         },
         // highlight-end
       ],
