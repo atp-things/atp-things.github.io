@@ -10,7 +10,9 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-    working-directory: website
+    defaults:
+      run:
+        working-directory: website
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
