@@ -24,14 +24,6 @@
       "options": {
         "cwd": "${workspaceFolder}/website/"
       }
-    },
-    {
-      "type": "npm",
-      "script": "deploy",
-      "path": "website/",
-      "problemMatcher": [],
-      "label": "npm: deploy - website",
-      "detail": "docusaurus deploy"
     }
   ]
 }
