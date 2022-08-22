@@ -20,7 +20,7 @@
       "command": "GIT_USER=andrazpolak DEPLOYMENT_BRANCH=gh-pages npm run deploy",
       "problemMatcher": [],
       "label": "npm: deploy - website command",
-      "detail": "docusaurus deploy command",
+      "detail": "Deploy website to docusaurus webpage.",
       "options": {
         "cwd": "${workspaceFolder}/website/"
       }
