@@ -2,10 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
-    paths:
-      # - ".github/workflows/deploy.yml"
-      # - "website/**"
+    # branches: [main]
+    # paths:
+    #   # - ".github/workflows/deploy.yml"
+    #   # - "website/**"
   workflow_dispatch:
 
 jobs:
