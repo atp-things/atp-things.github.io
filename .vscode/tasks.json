@@ -8,18 +8,18 @@
   },
   "tasks": [
     {
+      "label": "npm: start - website",
       "type": "npm",
       "script": "start",
       "path": "website/",
       "problemMatcher": [],
-      "label": "npm: start - website",
       "detail": "docusaurus start"
     },
     {
+      "label": "npm: deploy - website command",
       "type": "shell",
       "command": "GIT_USER=andrazpolak DEPLOYMENT_BRANCH=gh-pages npm run deploy",
       "problemMatcher": [],
-      "label": "npm: deploy - website command",
       "detail": "Deploy website to docusaurus webpage.",
       "options": {
         "cwd": "${workspaceFolder}/website/"

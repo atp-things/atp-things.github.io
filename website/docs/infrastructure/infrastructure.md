@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Infrastructure
@@ -26,9 +26,31 @@ sidebar_position: 2
 - ModbusRTU client/server
 - Bluetooth beacon receiver
 - Picoscope acquisition
--
+- Device monitor (computer, phone)
 
-### Languages
+### Programming Languages
 
 - Python ([package](https://github.com/atp-things/pkg-python-util))
 - JavaScript (npm package)
+- C/C++ (later)
+
+### Connectivity
+
+- Ethernet
+- Wi-Fi
+- Bluetooth
+- Zigbee
+- LoRa
+
+### Communication protocols
+
+- REST API
+- Web Socket
+- MQTT
+- ModbusTCP
+- ModbusRTU
+- Bluetooth
+- Ethernet/IP
+- OPC UA
+- Zigbee
+- LoRa
