@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo-square.svg",
   organizationName: "atp-things", // Usually your GitHub org/user name.
   projectName: "atp-things.github.io", // Usually your repo name.
 
@@ -42,10 +42,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "ATP Things",
+        // title: "ATP Things",
         logo: {
-          alt: "Logo",
-          src: "img/logo.svg",
+          alt: "ATP",
+          src: "img/logo-square.svg",
         },
         items: [
           {

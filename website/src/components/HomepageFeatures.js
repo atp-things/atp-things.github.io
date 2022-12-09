@@ -3,31 +3,31 @@ import clsx from "clsx";
 import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
-  {
-    title: "Easy to Use",
-    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
-    description: (
-      <>
-        ATP Things was designed from the ground up to be easily installed and
-        used to get your things up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: "Focus on What Matters",
-    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
-    description: (
-      <>
-        ATP Things lets you focus on your business, and we will take care about
-        transferring the data.
-      </>
-    ),
-  },
-  {
-    title: "Powered by React, Node.js, Javascript, Python...",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
-    description: <>THE Stack</>,
-  },
+  // {
+  //   title: "Easy to Use",
+  //   // Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
+  //   // description: (
+  //   //   <>
+  //   //     ATP Things was designed from the ground up to be easily installed and
+  //   //     used to get your things up and running quickly.
+  //   //   </>
+  //   // ),
+  // },
+  // {
+  //   title: "Focus on What Matters",
+  //   Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
+  //   description: (
+  //     <>
+  //       ATP Things lets you focus on your business, and we will take care about
+  //       transferring the data.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: "Powered by React, Node.js, Javascript, Python...",
+  //   Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+  //   description: <>THE Stack</>,
+  // },
 ];
 
 function Feature({ Svg, title, description }) {
